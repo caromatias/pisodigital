@@ -1,5 +1,12 @@
 /* Main Slider
 -------------------------------------------------- */
+.logo{
+    width: 140px;
+}
+.top-logo{
+    margin-top: -10px;
+    transition: opacity .1s linear;
+}
 #feature_slider {
   height: 720px;
   height: 480px;

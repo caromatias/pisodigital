@@ -2,9 +2,11 @@ $(function () {
     $(window).scroll(function() {
         if ($(".navbar").offset().top>30) {
             $(".navbar-fixed-top").addClass("sticky");
+            $(".logo").addClass("top-logo");
         }
         else {
             $(".navbar-fixed-top").removeClass("sticky");
+            $(".logo").removeClass("top-logo");
         }
     });
 

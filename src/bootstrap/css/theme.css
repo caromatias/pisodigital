@@ -64,7 +64,7 @@ header {
       color: #fff;
       opacity: 1;
       filter: alpha(opacity=100);
-      background-color: transparent; }
+      background-color: #FD5A02; }
   .navbar.sticky {
     background: rgba(0, 0, 0, 0.8);
     border-bottom: 1px solid #252525; }
