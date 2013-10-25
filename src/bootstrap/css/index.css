@@ -523,3 +523,8 @@
       box-shadow: none; }
   #showcase .features_op1_row .last {
     margin-bottom: 0; } }
+  #pd-footer-border
+  {
+      border-top: 15px solid #FD5A02;
+      margin-top: -35px;
+  }
