@@ -172,7 +172,7 @@ header {
     font-style: italic;
     color: #ccc; }
   #footer .contact {
-    text-align: right; }
+    float: right; }
     #footer .contact .footer_header {
       text-align: left;
       margin-left: 35px; }
