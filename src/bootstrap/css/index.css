@@ -279,7 +279,7 @@
     #in_pricing .charts_wrapp .plan {
       border-radius: 6px;
       box-shadow: 0 1px 3px 1px #d6d6d6;
-      background-color: #FB5A02;
+      background-color: #171E23;
       width: 95%;
       position: relative; }
       #in_pricing .charts_wrapp .plan .wrapper {
@@ -333,14 +333,14 @@
   #in_pricing .pro .plan {
     width: 100%;
     top: -20px;
-    box-shadow: 0px 0px 7px 0 #d6d6d6;
+    box-shadow: 0px 7px 7px 0 #d6d6d6;
     border: 1px solid #d9d9d9; }
     #in_pricing .pro .plan .wrapper {
       padding: 36px 30px 35px 30px; }
     #in_pricing .pro .plan img.ribbon {
-      position: absolute;
       top: 0;
-      right: 0; }
+      right: 0; 
+      margin-left: 56px;}
     #in_pricing .pro .plan a.order {
       margin-top: 35px; }
   #in_pricing .standar .plan {
@@ -527,4 +527,40 @@
   {
       border-top: 15px solid #FD5A02;
       margin-top: -35px;
+  }
+  #pd-contenedor-1
+  {
+      color: #535353;
+      font-weight: normal;
+      font-style: italic;
+      font-size: 28px;
+      margin: 15px 0px 5px 41px;
+      line-height: 25px;
+  }
+  #pd-contenedor-2
+  {
+      color: #535353;
+      font-weight: normal;
+      font-style: italic;
+      font-size: 28px;
+      margin: 15px 0px 5px 27px;
+      line-height: 25px;
+  }
+  #pd-contenedor-3
+  {
+      color: #535353;
+      font-weight: normal;
+      font-style: italic;
+      font-size: 28px;
+      margin: 0px 0px 7px 51px;
+      line-height: 49px;
+  }
+  #pd-contenedor-4
+  {
+      color: #535353;
+      font-weight: normal;
+      font-style: italic;
+      font-size: 28px;
+      margin: 0px 0px 5px 41px;
+      line-height: 51px;
   }
