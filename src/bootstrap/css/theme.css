@@ -64,7 +64,7 @@ header {
       color: #fff;
       opacity: 1;
       filter: alpha(opacity=100);
-      background-color: #FD5A02; }
+      background-color: transparent; }
   .navbar.sticky {
     background: rgba(0, 0, 0, 0.8);
     border-bottom: 1px solid #252525; }
@@ -172,7 +172,7 @@ header {
     font-style: italic;
     color: #ccc; }
   #footer .contact {
-    float: right; }
+    margin-left: 260px; }
     #footer .contact .footer_header {
       text-align: left;
       margin-left: 35px; }
