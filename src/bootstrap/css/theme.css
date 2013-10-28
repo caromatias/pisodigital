@@ -111,7 +111,7 @@ header {
 -------------------------------------------------- */
 #footer {
   min-height: 260px;
-  margin-top: 140px;
+  margin-top: 0px;
   background-color: #252528;
   color: #fff;
   padding-top: 35px;
