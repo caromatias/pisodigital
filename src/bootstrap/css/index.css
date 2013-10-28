@@ -280,7 +280,6 @@
     margin-bottom: 40px; }
     #in_pricing .charts_wrapp .plan {
       border-radius: 6px;
-      box-shadow: 0 1px 3px 1px #d6d6d6;
       background-color: #171E23;
       width: 95%;
       position: relative; }
@@ -334,9 +333,7 @@
       background: #252528; }
   #in_pricing .pro .plan {
     width: 100%;
-    top: -20px;
-    box-shadow: 0px 7px 7px 0 #d6d6d6;
-    border: 1px solid #d9d9d9; }
+    top: -20px; }
     #in_pricing .pro .plan .wrapper {
       padding: 36px 30px 35px 30px; }
     #in_pricing .pro .plan img.ribbon {
