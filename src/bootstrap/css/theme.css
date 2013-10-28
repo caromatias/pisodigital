@@ -98,14 +98,13 @@ header {
   width: 100%;
   margin-bottom: 60px; }
   .section_header h3 {
-    color: #646464;
+    color: #333333;
     font-weight: 300;
-    font-style: italic;
-    font-size: 27px;
-    border-bottom: 1px solid #b3b3b3;
+    font-style: normal;
+    font-size: 40px;
+    border-bottom: 1px solid #333333;
     padding-bottom: 0px;
-    display: inline-block;
-    margin: 0; }
+    display: inline-block; }
 
 /* Footer
 -------------------------------------------------- */
@@ -125,12 +124,15 @@ header {
   /* credits */
   /* inner footer */ }
   #footer .footer_header {
-    color: #FD5A02;
-    font-style: italic;
+    color: #333333;
+    font-style: normal;
     font-weight: 300;
-    font-size: 25px;
-    margin-bottom: 40px;
-    margin-left: 15px; }
+    font-size: 30px;
+    margin-bottom: 50px;
+    margin-left: 15px;
+    border-bottom: 1px solid #333333;
+    display: inline-block;
+    padding-bottom: 0px; }
   #footer .recent_posts {
     margin-left: 0px; }
     #footer .recent_posts .post {

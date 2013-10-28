@@ -10,7 +10,7 @@ and open the template in the editor.
 .movimiento{
     background-image: url('../images/circuito.png');
     background-color: rgb(85, 85, 85);
-    background-size: 120px;
+    background-size: 180px;
     background-repeat: repeat;
     -webkit-animation: animate-bg 21s linear;
     -webkit-animation-iteration-count: infinite;
