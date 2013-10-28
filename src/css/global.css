@@ -7,4 +7,26 @@ and open the template in the editor.
     Created on : 25-10-2013, 11:23:45 AM
     Author     : Matías Caro Serrano
 */
-
+.movimiento{
+    background-image: url('../images/circuito.png');
+    background-color: rgb(85, 85, 85);
+    background-size: 120px;
+    background-repeat: repeat;
+    -webkit-animation: animate-bg 21s linear;
+    -webkit-animation-iteration-count: infinite;
+    animation: animate-bg 21s linear;
+    animation-iteration-count: infinite;
+    box-shadow: inset 0 10px 34px #000000;
+}
+@-webkit-keyframes animate-bg{
+    0%{background-position:0 0}
+100%{background-position:0px -200px}
+}
+@-moz-keyframes animate-bg{
+    0%{background-position:0 0}
+100%{background-position:0px -200px}
+}
+@keyframes animate-bg{
+    0%{background-position:0 0}
+100%{background-position:0 -200px}
+}
