@@ -12,7 +12,7 @@
   height: 480px;
   background: #262626;
   z-index: 1;
-  margin-top: 0px;
+  margin-top: 85px;
 }
 
   #feature_slider h1 {
@@ -247,11 +247,9 @@
 /* Features
 -------------------------------------------------- */
 #features {
-  margin-bottom: -20px;
-    background-color: #FD5A02;
-    -webkit-box-shadow: 0px -10px 30px rgb(0, 0, 0);
-    -moz-box-shadow: 0px -10px 30px rgb(0, 0, 0);
-    box-shadow: 0px -10px 30px rgb(0, 0, 0);}
+  margin-bottom: 0px;
+    
+    }
   #features .feature {  
     margin-bottom: 65px; }
     #features .feature .info h3 {
@@ -263,7 +261,9 @@
         top: -10px; }
     #features .feature .info p {
       margin-top: 15px;
-      font-size: 17px; }
+      font-size: 17px;
+     font-size: 20px;
+    text-align: justify;}
 
 /* Pricing charts
 -------------------------------------------------- */

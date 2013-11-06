@@ -30,3 +30,118 @@ and open the template in the editor.
     0%{background-position:0 0}
 100%{background-position:0 -200px}
 }
+#dp-titulo-nuestros-proyecto
+{
+    
+    width: 300px;
+    height: -94px;
+    color: #535353;
+}
+#dp-contenido-inicio
+{
+    width: 100%;
+    height: 400px;
+}
+#dp-contenedor-de-bloque
+{
+    width: 600px;   
+    height: 220px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.dp-tamano-bloques-inicio
+{
+    width: 200px;
+    height: 220px;
+    float: left;
+}
+.dp-margen-de-imagenes
+{
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+#dp-banner-pc-datos
+{
+    width: 100%;
+    height: 200px;
+}
+.dp-contenedor-sobre-nosotros
+{
+    margin: 0 auto;
+    width: 900px;
+    height: 370px;
+}
+#dp-sobre-nosotros-info-uno
+{
+    width: 430px;
+    height: 330px;
+    margin-top: 39px;
+    margin-left: 0px;
+    float: left;
+    font-size: 24px;
+}
+#dp-sobre-nosotros-info-uno a
+{
+    font-size: 24px;
+    color: #FB5A02;
+}
+#dp-sobre-nosotros-separador-uno
+{
+    width: 100%;
+    height: 30px;
+    background-image: url('../images/imagenes-banner/quienes-somos.png');
+    background-position: -292px -250px;
+}
+#dp-sobre-nosotros-info-uno p
+{
+    font-size: 18px;
+}
+#dp-sobre-nosotros-imagen-uno
+{
+    width: 177px;
+    height: 143px;
+    float: left;
+    margin-top: 70px;
+    margin-left: 131px;
+    background-image: url('../images/imagenes-banner/quienes-somos.png');
+    background-position: -820px -266px;
+}
+#dp-sobre-nosotros-info-dos
+{
+    width: 430px;
+    height: 330px;
+    margin-top: 39px;
+    margin-left: 30PX;
+    float: left;
+}
+#dp-sobre-nosotros-separador-dos
+{
+    width: 100%;
+    height: 30px;
+    background-image: url('../images/imagenes-banner/quienes-somos.png');
+    background-position: -292px -250px;
+}
+#dp-sobre-nosotros-info-dos p
+{
+    font-family: 'Share Tech', sans-serif;
+}
+#dp-sobre-nosotros-imagen-dos
+{
+    width: 210px;
+    height: 197px;
+    float: left;
+    margin-top: 70px;
+    margin-left: 131px;
+    background-image: url('../images/imagenes-banner/quienes-somos.png');
+    background-position: -801px -560px;
+}
+#dp-logo-inicio
+{
+    width: 132px;
+    height: 132px;
+    background-image: url('../images/imagenes-banner/quienes-somos.png');
+    background-position: -283px 1px;
+    float: left;        
+}

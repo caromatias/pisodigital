@@ -4,7 +4,6 @@
 	<title>Business Template    </title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />	
-    <!-- Styles -->
     <link href="src/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="src/bootstrap/css/bootstrap-overrides.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="src/bootstrap/css/theme.css" />
@@ -14,13 +13,8 @@
     <link rel="stylesheet" href="src/bootstrap/css/index.css" type="text/css" media="screen" />    
     <link rel="stylesheet" type="text/css" href="src/bootstrap/css/animate.css" media="screen, projection" />  
     <link rel="stylesheet" type="text/css" href="src/css/global.css" media="screen, projection" />
-
-    <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
 </head>
 <body class="pull_top">
-    
     <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-header">
@@ -30,9 +24,9 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a href="index.html" class="navbar-brand"><img src="src/images/logos/logo-pd.png" class="logo"/></a>
             </div>
-            <div class="collapse navbar-collapse navbar-ex1-collapse" role="navigation">
+            <div id="dp-logo-inicio"></div>
+            <div  role="navigation">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="active"><a href="index.html">HOME</a></li>
                     <li><a href="javascript:baja();">SOBRE NOSOTROS</a></li>
@@ -43,33 +37,18 @@
         </div>
     </div>
     <section id="feature_slider" class="lol">
-        <!-- 
-            Each slide is composed by <img> and .info
-            - .info's position is customized with css in index.css
-            - each <img> parallax effect is declared by the following params inside its class:
-            
-            example: class="asset left-472 sp600 t120 z3"
-            left-472 means left: -472px from the center
-            sp600 is speed transition
-            t120 is top to 120px
-            z3 is z-index to 3
-            Note: Maintain this order of params
-
-            For the backgrounds, you can combine from the bgs folder :D
-        -->
         <article class="slide" id="showcasing" style="background: url('src/images/slides/backgrounds/landscape.png') repeat-x top center;">
-            <img class="asset left-30 sp600 t120 z1" src="src/images/logos/logo-pd.png" style="width: 450px;"/>
+            
             <div class="info">
                 <h2>La web 2.0 esta en:</h2>
             </div>
         </article>
-        <article class="slide" id="ideas" style="background: url('src/images/slides/backgrounds/aqua.jpg') repeat-x top center;">
+        <article class="slide" id="ideas" style="background: url('src/images/imagenes-banner/banner-piso-digital-fondo.jpg') repeat-x top center;">
             <div class="info">
                 <h2>Transformamos las ideas en las mejores páginas web y aplicaciones</h2>
             </div>
-            <img class="asset left-480 sp600 t260 z1" src="img/slides/scene2/left.png" />
-            <img class="asset left-210 sp600 t213 z2" src="img/slides/scene2/middle.png" />
-            <img class="asset left60 sp600 t260 z1" src="img/slides/scene2/right.png" />
+            <div><img src="src/images/imagenes-banner/banner-piso-digital-pc.png" style="position: absolute"/></div>
+            <div><img src="src/images/imagenes-banner/banner-piso-digital-px.png" style="position: absolute"/> 
         </article>
         <article class="slide" id="tour" style="background: url('src/images/slides/backgrounds/color-splash.jpg') repeat-x top center;">
             <img class="asset left-252 sp650 t210 z3" src="src/images/logos/tablet.png" style="width: 250px; height: 200px; left: 251px;"/>
@@ -77,7 +56,7 @@
             <img class="asset left-350 sp450 t135 z2" src="src/images/logos/Laptop-icon.png" style="width: 300px; height: 245px;"/>
             <img class="asset left-185 sp550 t220 z1" src="src/images/logos/monitor.png" style="width: 360px; height: 250px; top: 117px !important;" />
             <div class="info">
-                <h2>Calidad de diseño.</h2>
+                <h2>Calidad en diseño.</h2>
             </div>
         </article>
         <article class="slide" id="responsive" style="background: url('src/images/slides/backgrounds/indigo.jpg') repeat-x top center;">
@@ -90,112 +69,53 @@
             </div>
         </article>        
     </section>
-    <div id="in_pricing" class="movimiento">
-        <div class="container">
-            <div class="row charts_wrapp">
-                <!-- Plan Box -->
-                <div class="col-sm-4 pro">
-                    <div class="plan">
-                        <div class="wrapper">
-                            <img class="ribbon" src="src/images/logos/sprites.png">
-                            <p id="pd-contenedor-1">Soporte</p>
-                            <div class="price">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Plan Box -->
-                <div class="col-sm-4 pro">
-                    <div class="plan">
-                        <div class="wrapper">
-                            <img class="ribbon" src="src/images/logos/bulb.png">
-                            <p id="pd-contenedor-2">Innovación</p>
-                            <div class="price">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Plan Box -->
-                <div class="col-sm-4 pro">
-                    <div class="plan">
-                        <div class="wrapper">
-                            <img class="ribbon" src="src/images/logos/vision.png">
-                            <p id="pd-contenedor-3">Visión</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Plan Box -->
-                <div class="col-sm-4 pro">
-                    <div class="plan">
-                        <div class="wrapper">
-                            <img class="ribbon" src="src/images/logos/lapiz.png">
-                            <p id="pd-contenedor-4">Diseño</p>
-                        </div>
-                    </div>
-                </div>
+    <div id="dp-contenido-inicio">
+        <div id="dp-contenedor-de-bloque">
+            <div class="dp-tamano-bloques-inicio" style="background-color: #FB5A02;">
+                <div class="dp-margen-de-imagenes"><img src="src/images/logos/pc-60px.png"/></div>
+            </div >
+            <div class="dp-tamano-bloques-inicio" style="background-color: #DD4F03;">
+                <div class="dp-margen-de-imagenes"><img src="src/images/logos/apolleta-60px.png"/></div>
             </div>
-            <div class="start">
+            <div class="dp-tamano-bloques-inicio" style="background-color: #C74A07">
+                <div class="dp-margen-de-imagenes"><img src="src/images/logos/pluma-60px.png"/></div>
             </div>
         </div>
     </div>
-    <div id="features" style="background-color: #FD5A02">
+    <div id="features">
         <div class="container">
             <div class="section_header">
                 <h3>Sobre Nosotros</h3>
             </div> 
-            <div class="row feature">
-                <div class="col-sm-6">
-                    <img src="src/images/logos/logo-pd.png" class="img-responsive" />
+            <div class="dp-contenedor-sobre-nosotros">
+                <div id="dp-sobre-nosotros-info-uno">
+                    Quienes <a>Somos</a>
+                    <div id="dp-sobre-nosotros-separador-uno"></div>
+                    <p>Piso digital en un area del grupo Alto Andes que se dedica especialmente al desarrollo digital y tecnológico de aplicaciones, páginas webs y aplicaciones moviles. Nos caracterizamos Por nuestra gran creatividad, nivel artistico y compromiso con nuestros clientes y con los proyectos que tomamos. Contamos con una estrictura solida de personas capacitadas con las últimas tendencias de diseño y de programación</p>
                 </div>
-                <div class="col-sm-6 info">
-                    <h3>
-                        <img src="src/images/logos/quienes-somos.png" />
-                        Quienes somos
-                    </h3>
-                    <p>
-                        Somos un área dedicada exclusivamente al desarrollo de diseños visuales y aplicaciones web.
-                    </p>  
+                <div id="dp-sobre-nosotros-imagen-uno">
+                    
                 </div>
             </div>
-            <div class="row feature">
-                <div class="col-sm-6 pic-right">
-                    <img src="src/images/logos/logo-pd.png" class="pull-right img-responsive" />
+            <div class="dp-contenedor-sobre-nosotros">
+                <div id="dp-sobre-nosotros-info-uno">
+                    Que <a>Hacemos</a>
+                    <div id="dp-sobre-nosotros-separador-dos"></div>
+                    <p>En general, el termino tambien se utiliza para designar aquellos programas informaticos que son ejecutados en el entorno del navegador (por ejemplo, un applet de Java) o codificado con algun lenguaje soportado por el navegador (como JavaScript, combinado con HTML); confiándose en el navegador web que se produzca (renderice) la aplicación. </p>
                 </div>
-                <div class="col-sm-6 info info-left">
-                    <h3>
-                        <img src="src/images/logos/nuestro-servicio.png" />
-                        Nuestro servicio
-                    </h3>
-                    <p>
-                        Nuestro objetivo es entregar un producto de calidad a nuestros clientes, incorporando las ultimas técnicas y tecnologías.  
-                    </p>
-                </div>                
-            </div>
-            <div class="row feature">
-                <div class="col-sm-6">
-                    <img src="src/images/logos/logo-pd.png" class="img-responsive" />
-                </div>
-                <div class="col-sm-6 info">
-                    <h3>
-                        <img src="src/images/logos/queesloquehacemos.png" />
-                        Que es lo que hacemos.
-                    </h3>
-                    <p>
-                        clc clc clc clc clc clc 
-                    </p>
-                </div>
+                <div id="dp-sobre-nosotros-imagen-dos">
+                </div>    
             </div>
         </div>
     </div>
-    <!-- Pricing Option -->
     <div id="in_pricing" class="movimiento">
         <div class="container">
             <div class="section_header">
-                <h3>Nuestros proyectos</h3>
+                <div id="dp-titulo-nuestros-proyecto">
+                    Nuestros proyectos
+                </div>
             </div>
-
             <div class="row charts_wrapp">
-                <!-- Plan Box -->
                 <div class="col-sm-4">
                     <div class="plan">
                         <div class="wrapper">
@@ -249,7 +169,6 @@
                         </div>
                     </div>
                 </div>
-                <!-- Plan Box -->
                 <div class="col-sm-4 standar">
                     <div class="plan">
                         <div class="wrapper">
@@ -279,7 +198,6 @@
             </div>
         </div>
     </div>
-    <!-- starts footer -->
     <footer id="footer">
         <div id="pd-footer-border">
         </div>
