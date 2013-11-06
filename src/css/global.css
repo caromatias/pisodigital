@@ -32,7 +32,8 @@ and open the template in the editor.
 }
 #dp-titulo-nuestros-proyecto
 {
-    
+    font-family: 'Share Tech', sans-serif;
+    font-size: 20px;
     width: 300px;
     height: -94px;
     color: #535353;
@@ -145,7 +146,8 @@ and open the template in the editor.
     height: 132px;
     background-image: url('../images/imagenes-banner/quienes-somos.png');
     background-position: -283px 1px;
-    float: left;        
+    float: left;    
+    cursor: pointer;
 }
 .menu-size{
     height: 81px;
