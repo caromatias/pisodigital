@@ -35,6 +35,12 @@ header {
 /* Navbar
 -------------------------------------------------- */
 .navbar {
+    height: 133px;
+    -webkit-transition:all 1s ease-out;  /* Chrome y Safari */
+    -o-transition:all 1s ease-out;  /* Opera */
+    -moz-transition:all 1s ease-out;  /* Mozilla Firefox */
+    -ms-transition:all 1s ease-out;   /* Internet Explorer */
+    transition:all 1s ease-out;  /* W3C */
   }
   .navbar.navbar-inverse {
     background: rgba(0, 0, 0, 1.0);
@@ -314,7 +320,8 @@ header {
     background: #252528; } }
 @media (min-width: 768px) and (max-width: 991px) {
   .navbar {
-    margin-bottom: 0; }
+    margin-bottom: 0;
+  }
     .navbar.transparent.navbar-fixed-top {
       margin-bottom: -70px;
       position: relative;

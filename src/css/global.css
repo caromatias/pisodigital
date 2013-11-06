@@ -145,3 +145,6 @@ and open the template in the editor.
     background-position: -283px 1px;
     float: left;        
 }
+.menu-size{
+    height: 81px;
+}
