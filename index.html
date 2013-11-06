@@ -1,279 +1,356 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Business Template    </title>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />	
-    <link href="src/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="src/bootstrap/css/bootstrap-overrides.css" type="text/css" />
-    <link rel="stylesheet" type="text/css" href="src/bootstrap/css/theme.css" />
+    <head>
+        <title>Business Template    </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />	
+        <link href="src/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+        <link rel="stylesheet" href="src/bootstrap/css/bootstrap-overrides.css" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="src/bootstrap/css/theme.css" />
 
-    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css' />
+        <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css' />
 
-    <link rel="stylesheet" href="src/bootstrap/css/index.css" type="text/css" media="screen" />    
-    <link rel="stylesheet" type="text/css" href="src/bootstrap/css/animate.css" media="screen, projection" />  
-    <link rel="stylesheet" type="text/css" href="src/css/global.css" media="screen, projection" />
-</head>
-<body class="pull_top">
-    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle pull-right" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-            </div>
-            <div id="dp-logo-inicio"></div>
-            <div  role="navigation">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="index.html">HOME</a></li>
-                    <li><a href="javascript:baja();">SOBRE NOSOTROS</a></li>
-                    <li><a href="javascript:baja();">CLIENTES</a></li>
-                    <li><a href="javascript:baja();">CONTACTO</a></li>
-                </ul>
+        <link rel="stylesheet" href="src/bootstrap/css/index.css" type="text/css" media="screen" />    
+        <link rel="stylesheet" type="text/css" href="src/bootstrap/css/animate.css" media="screen, projection" />  
+        <link rel="stylesheet" type="text/css" href="src/css/global.css" media="screen, projection" />
+        <link rel="shortcut icon" href="../favicon.ico"> 
+        <link rel="stylesheet" type="text/css" href="src/css/default.css" />
+        <link rel="stylesheet" type="text/css" href="src/css/component.css" />
+        <script src="js/modernizr.custom.js"></script>
+    </head>
+    <body class="pull_top">
+        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle pull-right" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div id="dp-logo-inicio"></div>
+                <div  role="navigation">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="index.html">HOME</a></li>
+                        <li><a href="javascript:baja();">SOBRE NOSOTROS</a></li>
+                        <li><a href="javascript:baja();">CLIENTES</a></li>
+                        <li><a href="javascript:baja();">CONTACTO</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
-    </div>
-    <section id="feature_slider" class="lol">
-        <article class="slide" id="showcasing" style="background: url('src/images/slides/backgrounds/landscape.png') repeat-x top center;">
-            
-            <div class="info">
-                <h2>La web 2.0 esta en:</h2>
-            </div>
-        </article>
-        <article class="slide" id="ideas" style="background: url('src/images/imagenes-banner/banner-piso-digital-fondo.jpg') repeat-x top center;">
-            <div class="info">
-                <h2>Transformamos las ideas en las mejores páginas web y aplicaciones</h2>
-            </div>
-            <div><img src="src/images/imagenes-banner/banner-piso-digital-pc.png" style="position: absolute"/></div>
-            <div><img src="src/images/imagenes-banner/banner-piso-digital-px.png" style="position: absolute"/> 
-        </article>
-        <article class="slide" id="tour" style="background: url('src/images/slides/backgrounds/color-splash.jpg') repeat-x top center;">
-            <img class="asset left-252 sp650 t210 z3" src="src/images/logos/tablet.png" style="width: 250px; height: 200px; left: 251px;"/>
-            <img class="asset left-379 sp600 t270 z4" src="src/images/logos/smart-phone.png" style="width: 110px; height: 177px; left: 576px; top: 278px" />
-            <img class="asset left-350 sp450 t135 z2" src="src/images/logos/Laptop-icon.png" style="width: 300px; height: 245px;"/>
-            <img class="asset left-185 sp550 t220 z1" src="src/images/logos/monitor.png" style="width: 360px; height: 250px; top: 117px !important;" />
-            <div class="info">
-                <h2>Calidad en diseño.</h2>
-            </div>
-        </article>
-        <article class="slide" id="responsive" style="background: url('src/images/slides/backgrounds/indigo.jpg') repeat-x top center;">
-            <img class="asset left-472 sp600 t120 z3" src="src/images/slides/html5.png" />
-            <img class="asset left-190 sp500 t120 z2" src="src/images/slides/css3.png" />
-            <div class="info">
-                <h2>
-                   Calidad digital.
-                </h2>                
-            </div>
-        </article>        
-    </section>
-    <div id="dp-contenido-inicio">
-        <div id="dp-contenedor-de-bloque">
-            <div class="dp-tamano-bloques-inicio" style="background-color: #FB5A02;">
-                <div class="dp-margen-de-imagenes"><img src="src/images/logos/pc-60px.png"/></div>
-            </div >
-            <div class="dp-tamano-bloques-inicio" style="background-color: #DD4F03;">
-                <div class="dp-margen-de-imagenes"><img src="src/images/logos/apolleta-60px.png"/></div>
-            </div>
-            <div class="dp-tamano-bloques-inicio" style="background-color: #C74A07">
-                <div class="dp-margen-de-imagenes"><img src="src/images/logos/pluma-60px.png"/></div>
+        <section id="feature_slider" class="lol">
+            <article class="slide" id="showcasing" style="background: url('src/images/slides/backgrounds/landscape.png') repeat-x top center;">
+
+                <div class="info">
+                    <h2>La web 2.0 esta en:</h2>
+                </div>
+            </article>
+            <article class="slide" id="ideas" style="background: url('src/images/imagenes-banner/banner-piso-digital-fondo.jpg') repeat-x top center;">
+                <div class="info">
+                    <h2>Transformamos las ideas en las mejores páginas web y aplicaciones</h2>
+                </div>
+                <div><img src="src/images/imagenes-banner/banner-piso-digital-pc.png" style="position: absolute; margin: 0 auto;"/></div>
+                <div><img src="src/images/imagenes-banner/banner-piso-digital-px.png" style="position: absolute; margin: 0 auto;"/> 
+            </article>
+            <article class="slide" id="tour" style="background: url('src/images/slides/backgrounds/color-splash.jpg') repeat-x top center;">
+                <img class="asset left-252 sp650 t210 z3" src="src/images/logos/tablet.png" style="width: 250px; height: 200px; left: 251px;"/>
+                <img class="asset left-379 sp600 t270 z4" src="src/images/logos/smart-phone.png" style="width: 110px; height: 177px; left: 576px; top: 278px" />
+                <img class="asset left-350 sp450 t135 z2" src="src/images/logos/Laptop-icon.png" style="width: 300px; height: 245px;"/>
+                <img class="asset left-185 sp550 t220 z1" src="src/images/logos/monitor.png" style="width: 360px; height: 250px; top: 117px !important;" />
+                <div class="info">
+                    <h2>Calidad en diseño.</h2>
+                </div>
+            </article>
+            <article class="slide" id="responsive" style="background: url('src/images/slides/backgrounds/indigo.jpg') repeat-x top center;">
+                <img class="asset left-472 sp600 t120 z3" src="src/images/slides/html5.png" />
+                <img class="asset left-190 sp500 t120 z2" src="src/images/slides/css3.png" />
+                <div class="info">
+                    <h2>
+                        Calidad digital.
+                    </h2>                
+                </div>
+            </article>        
+        </section>
+        <div>
+            <ul class="grid cs-style-2">
+                <li>
+                    <figure>
+                        <img src="src/images/logos/pc-140.png">
+                        <figcaption>
+                            <h3>Music</h3>
+                            <span>Jacob Cummings</span>
+                            <a href="http://dribbble.com/shots/1115960-Music">Take a look</a>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="src/images/logos/pc-140.png" alt="img04">
+                        <figcaption>
+                            <h3>Settings</h3>
+                            <span>Jacob Cummings</span>
+                            <a href="http://dribbble.com/shots/1116685-Settings">Take a look</a>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="src/images/logos/pc-140.png" alt="img06">
+                        <figcaption>
+                            <h3>Game Center</h3>
+                            <span>Jacob Cummings</span>
+                            <a href="http://dribbble.com/shots/1118904-Game-Center">Take a look</a>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="src/images/logos/pc-140.png" alt="img05">
+                        <figcaption>
+                            <h3>Safari</h3>
+                            <span>Jacob Cummings</span>
+                            <a href="http://dribbble.com/shots/1116775-Safari">Take a look</a>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="src/images/logos/pc-140.png" alt="img03">
+                        <figcaption>
+                            <h3>Phone</h3>
+                            <span>Jacob Cummings</span>
+                            <a href="http://dribbble.com/shots/1117308-Phone">Take a look</a>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="src/images/logos/pc-140.png" alt="img01">
+                        <figcaption>
+                            <h3>Camera</h3>
+                            <span>Jacob Cummings</span>
+                            <a href="http://dribbble.com/shots/1115632-Camera">Take a look</a>
+                        </figcaption>
+                    </figure>
+                </li>
+            </ul>
+        </div>
+        <div id="dp-contenido-inicio">
+            <div id="dp-contenedor-de-bloque">
+                <div class="dp-tamano-bloques-inicio" style="background-color: #FB5A02;">
+                    <div class="dp-margen-de-imagenes"><img src="src/images/logos/pc-140.png"/></div>
+                </div >
+                <div class="dp-tamano-bloques-inicio" style="background-color: #DD4F03;">
+                    <div class="dp-margen-de-imagenes"><img src="src/images/logos/ampolleta-140.png"/></div>
+                </div>
+                <div class="dp-tamano-bloques-inicio" style="background-color: #C74A07">
+                    <div class="dp-margen-de-imagenes"><img src="src/images/logos/pluma-140.png"/></div>
+                </div>
             </div>
         </div>
-    </div>
-    <div id="features">
-        <div class="container">
-            <div class="dp-contenedor-sobre-nosotros">
-                <div id="dp-sobre-nosotros-info-uno">
-                    Quienes <a>Somos</a>
-                    <div id="dp-sobre-nosotros-separador-uno"></div>
-                    <p>Piso digital en un area del grupo Alto Andes que se dedica especialmente al desarrollo digital y tecnológico de aplicaciones, páginas webs y aplicaciones moviles. Nos caracterizamos Por nuestra gran creatividad, nivel artistico y compromiso con nuestros clientes y con los proyectos que tomamos. Contamos con una estrictura solida de personas capacitadas con las últimas tendencias de diseño y de programación</p>
+        <div id="features">
+            <div class="container">
+                <div class="dp-contenedor-sobre-nosotros">
+                    <div id="dp-sobre-nosotros-info-uno">
+                        Quienes <a>Somos</a>
+                        <div id="dp-sobre-nosotros-separador-uno"></div>
+                        <p>Piso digital en un area del grupo Alto Andes que se dedica especialmente al desarrollo digital y tecnológico de aplicaciones, páginas webs y aplicaciones moviles. Nos caracterizamos Por nuestra gran creatividad, nivel artistico y compromiso con nuestros clientes y con los proyectos que tomamos. Contamos con una estrictura solida de personas capacitadas con las últimas tendencias de diseño y de programación</p>
+                    </div>
+                    <div id="dp-sobre-nosotros-imagen-uno">
+
+                    </div>
                 </div>
-                <div id="dp-sobre-nosotros-imagen-uno">
-                    
+                <div class="dp-contenedor-sobre-nosotros">
+                    <div id="dp-sobre-nosotros-info-uno">
+                        Que <a>Hacemos</a>
+                        <div id="dp-sobre-nosotros-separador-dos"></div>
+                        <p>En general, el termino tambien se utiliza para designar aquellos programas informaticos que son ejecutados en el entorno del navegador (por ejemplo, un applet de Java) o codificado con algun lenguaje soportado por el navegador (como JavaScript, combinado con HTML); confiándose en el navegador web que se produzca (renderice) la aplicación.</p>
+                        <p>Nuestro servicio:</p>
+                        <ul style="font-size: 18px;">
+                            <li>Programacion y diseño Web.</li>
+                            <li>Diseño Grafico.</li>
+                            <li>Marketing digital, app redes sociales.</li>
+                            <li>App moviles.</li>                        
+                            <li>Te ayudamos a crear lo que necesitas, nuetro equipo y creatividad.</li>
+                        </ul>
+                    </div>
+                    <div id="dp-sobre-nosotros-imagen-dos">
+                    </div>    
                 </div>
-            </div>
-            <div class="dp-contenedor-sobre-nosotros">
-                <div id="dp-sobre-nosotros-info-uno">
-                    Que <a>Hacemos</a>
-                    <div id="dp-sobre-nosotros-separador-dos"></div>
-                    <p>En general, el termino tambien se utiliza para designar aquellos programas informaticos que son ejecutados en el entorno del navegador (por ejemplo, un applet de Java) o codificado con algun lenguaje soportado por el navegador (como JavaScript, combinado con HTML); confiándose en el navegador web que se produzca (renderice) la aplicación. </p>
-                </div>
-                <div id="dp-sobre-nosotros-imagen-dos">
-                </div>    
             </div>
         </div>
-    </div>
-    <div id="in_pricing" class="movimiento">
-        <div class="container">
-            <div class="section_header">
-                <div id="dp-titulo-nuestros-proyecto">
-                    Nuestros proyectos
+        <div id="in_pricing" class="movimiento">
+            <div class="container">
+                <div class="section_header">
+                    <div id="dp-titulo-nuestros-proyecto">
+                        Nuestros proyectos
+                    </div>
                 </div>
-            </div>
-            <div class="row charts_wrapp">
-                <div class="col-sm-4">
-                    <div class="plan">
-                        <div class="wrapper">
-                            <h3>Lite</h3>
-                            <div class="price">
-                                <span class="dollar">$</span> 
-                                <span class="qty">35</span> 
-                                <span class="month">/month</span>
+                <div class="row charts_wrapp">
+                    <div class="col-sm-4">
+                        <div class="plan">
+                            <div class="wrapper">
+                                <h3>Lite</h3>
+                                <div class="price">
+                                    <span class="dollar">$</span> 
+                                    <span class="qty">35</span> 
+                                    <span class="month">/month</span>
+                                </div>
+                                <div class="features">
+                                    <p>
+                                        <strong>10</strong>
+                                        Shared Projects
+                                    </p>
+                                    <p>
+                                        <strong>4</strong>
+                                        Team Members
+                                    </p>
+                                    <p>
+                                        <strong>10</strong>
+                                        Storage
+                                    </p>
+                                </div>
                             </div>
-                            <div class="features">
-                                <p>
-                                    <strong>10</strong>
-                                    Shared Projects
-                                </p>
-                                <p>
-                                    <strong>4</strong>
-                                    Team Members
-                                </p>
-                                <p>
-                                    <strong>10</strong>
-                                    Storage
-                                </p>
+                        </div>
+                    </div>
+                    <!-- Plan Box -->
+                    <div class="col-sm-4 pro">
+                        <div class="plan">
+                            <div class="wrapper">
+                                <h3>Pro</h3>
+                                <div class="price">
+                                    <span class="dollar">$</span> 
+                                    <span class="qty">99</span> 
+                                    <span class="month">/month</span>
+                                </div>
+                                <div class="features">
+                                    <p>
+                                        <strong>10</strong>
+                                        Shared Projects
+                                    </p>
+                                    <p>
+                                        <strong>25</strong>
+                                        Team Members
+                                    </p>
+                                    <p>
+                                        <strong>Unlimited</strong>
+                                        Storage
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 standar">
+                        <div class="plan">
+                            <div class="wrapper">
+                                <h3>Standard</h3>
+                                <div class="price">
+                                    <span class="dollar">$</span> 
+                                    <span class="qty">65</span> 
+                                    <span class="month">/month</span>
+                                </div>
+                                <div class="features">
+                                    <p>
+                                        <strong>10</strong>
+                                        Shared Projects
+                                    </p>
+                                    <p>
+                                        <strong>4</strong>
+                                        Team Members
+                                    </p>
+                                    <p>
+                                        <strong>10</strong>
+                                        Storage
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- Plan Box -->
-                <div class="col-sm-4 pro">
-                    <div class="plan">
-                        <div class="wrapper">
-                            <h3>Pro</h3>
-                            <div class="price">
-                                <span class="dollar">$</span> 
-                                <span class="qty">99</span> 
-                                <span class="month">/month</span>
-                            </div>
-                            <div class="features">
-                                <p>
-                                    <strong>10</strong>
-                                    Shared Projects
-                                </p>
-                                <p>
-                                    <strong>25</strong>
-                                    Team Members
-                                </p>
-                                <p>
-                                    <strong>Unlimited</strong>
-                                     Storage
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 standar">
-                    <div class="plan">
-                        <div class="wrapper">
-                            <h3>Standard</h3>
-                            <div class="price">
-                                <span class="dollar">$</span> 
-                                <span class="qty">65</span> 
-                                <span class="month">/month</span>
-                            </div>
-                            <div class="features">
-                                <p>
-                                    <strong>10</strong>
-                                    Shared Projects
-                                </p>
-                                <p>
-                                    <strong>4</strong>
-                                    Team Members
-                                </p>
-                                <p>
-                                    <strong>10</strong>
-                                    Storage
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
-    </div>
-    <footer id="footer">
-        <div id="pd-footer-border">
-        </div>
-        <div class="container">
-            <div class="row sections">
-                <div class="col-sm-4 recent_posts">
-                    <h3 class="footer_header">
-                        Ubicación
-                    </h3>
-                    <div>
-                        <iframe width="525" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.cl/maps?f=q&amp;source=s_q&amp;hl=es-419&amp;geocode=&amp;q=San+Patricio+4234,+Vitacura&amp;aq=0&amp;oq=SA&amp;sll=-33.668298,-70.363372&amp;sspn=1.428687,2.535095&amp;t=m&amp;ie=UTF8&amp;hq=&amp;hnear=San+Patricio+4234,+Vitacura,+Santiago,+Regi%C3%B3n+Metropolitana&amp;z=14&amp;ll=-33.398549,-70.590251&amp;output=embed"></iframe>                       
-                    </div>
-                </div>
-                <div class="col-sm-4 contact">
-                    <h3 class="footer_header">
-                        Contacto
-                    </h3>
-                    <form action="#" method="post">
-                        <input type="text" placeholder="Nombre" />
-                        <input type="text" placeholder="Telefono" />
-                        <input type="text" placeholder="Correo" />
-                        <textarea rows="3" placeholder="Mensage"></textarea>
-                        <input type="submit" value="Enviar" />
-                    </form>
-                </div>
+        <footer id="footer">
+            <div id="pd-footer-border">
             </div>
-            <div class="row credits">
-                <div class="col-md-12">
-                    <div class="row social">
-                        <div class="col-md-12">
-                            <a href="#" class="facebook">
-                                <span class="socialicons ico1"></span>
-                                <span class="socialicons_h ico1h"></span>
-                            </a>
-                            <a href="#" class="twitter">
-                                <span class="socialicons ico2"></span>
-                                <span class="socialicons_h ico2h"></span>
-                            </a>
-                            <a href="#" class="gplus">
-                                <span class="socialicons ico3"></span>
-                                <span class="socialicons_h ico3h"></span>
-                            </a>
-                            <a href="#" class="flickr">
-                                <span class="socialicons ico4"></span>
-                                <span class="socialicons_h ico4h"></span>
-                            </a>
-                            <a href="#" class="pinterest">
-                                <span class="socialicons ico5"></span>
-                                <span class="socialicons_h ico5h"></span>
-                            </a>
-                            <a href="#" class="dribble">
-                                <span class="socialicons ico6"></span>
-                                <span class="socialicons_h ico6h"></span>
-                            </a>
-                            <a href="#" class="behance">
-                                <span class="socialicons ico7"></span>
-                                <span class="socialicons_h ico7h"></span>
-                            </a>
+            <div class="container">
+                <div class="row sections">
+                    <div class="col-sm-4 recent_posts">
+                        <h3 class="footer_header">
+                            Ubicación
+                        </h3>
+                        <div>
+                            <iframe width="525" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.cl/maps?f=q&amp;source=s_q&amp;hl=es-419&amp;geocode=&amp;q=San+Patricio+4234,+Vitacura&amp;aq=0&amp;oq=SA&amp;sll=-33.668298,-70.363372&amp;sspn=1.428687,2.535095&amp;t=m&amp;ie=UTF8&amp;hq=&amp;hnear=San+Patricio+4234,+Vitacura,+Santiago,+Regi%C3%B3n+Metropolitana&amp;z=14&amp;ll=-33.398549,-70.590251&amp;output=embed"></iframe>                       
                         </div>
                     </div>
-                    <div class="row copyright">
-                        <div class="col-md-12">
-                            © 2013 Piso Digital. Todos los derechos reservados.
-                        </div>
+                    <div class="col-sm-4 contact">
+                        <h3 class="footer_header">
+                            Contacto
+                        </h3>
+                        <form action="#" method="post">
+                            <input type="text" placeholder="Nombre" />
+                            <input type="text" placeholder="Telefono" />
+                            <input type="text" placeholder="Correo" />
+                            <textarea rows="3" placeholder="Mensage"></textarea>
+                            <input type="submit" value="Enviar" />
+                        </form>
                     </div>
-                </div>            
+                </div>
+                <div class="row credits">
+                    <div class="col-md-12">
+                        <div class="row social">
+                            <div class="col-md-12">
+                                <a href="#" class="facebook">
+                                    <span class="socialicons ico1"></span>
+                                    <span class="socialicons_h ico1h"></span>
+                                </a>
+                                <a href="#" class="twitter">
+                                    <span class="socialicons ico2"></span>
+                                    <span class="socialicons_h ico2h"></span>
+                                </a>
+                                <a href="#" class="gplus">
+                                    <span class="socialicons ico3"></span>
+                                    <span class="socialicons_h ico3h"></span>
+                                </a>
+                                <a href="#" class="flickr">
+                                    <span class="socialicons ico4"></span>
+                                    <span class="socialicons_h ico4h"></span>
+                                </a>
+                                <a href="#" class="pinterest">
+                                    <span class="socialicons ico5"></span>
+                                    <span class="socialicons_h ico5h"></span>
+                                </a>
+                                <a href="#" class="dribble">
+                                    <span class="socialicons ico6"></span>
+                                    <span class="socialicons_h ico6h"></span>
+                                </a>
+                                <a href="#" class="behance">
+                                    <span class="socialicons ico7"></span>
+                                    <span class="socialicons_h ico7h"></span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row copyright">
+                            <div class="col-md-12">
+                                © 2013 Piso Digital. Todos los derechos reservados.
+                            </div>
+                        </div>
+                    </div>            
+                </div>
             </div>
-        </div>
-    </footer>
-    <!-- Scripts -->
-    <script src="src/js/jquery-latest.js"></script>
-    <script src="src/bootstrap/js/bootstrap.min.js"></script>
-    <script src="src/js/theme.js"></script>
-    <script type="text/javascript" src="src/js/index-slider.js"></script>
-    <script type="text/javascript" src="src/js/jquery.scrollTo-1.4.3.1-min.js"></script>
-    <script type="text/javascript">
-        function baja(){
-            $.scrollTo('#features',800);
-        }
-    </script>
-</body>
+        </footer>
+        <!-- Scripts -->
+        <script src="src/js/jquery-latest.js"></script>
+        <script src="src/bootstrap/js/bootstrap.min.js"></script>
+        <script src="src/js/theme.js"></script>
+        <script type="text/javascript" src="src/js/index-slider.js"></script>
+        <script type="text/javascript" src="src/js/jquery.scrollTo-1.4.3.1-min.js"></script>
+        <script type="text/javascript">
+            function baja() {
+                $.scrollTo('#features', 800);
+            }
+        </script>
+        <script src="js/toucheffects.js"></script>
+    </body>
 </html>
