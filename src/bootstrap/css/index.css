@@ -524,8 +524,10 @@
     margin-bottom: 0; } }
   #pd-footer-border
   {
+      width: 1000px;
       border-top: 15px solid #FD5A02;
       margin-top: -35px;
+      margin: 0 auto;
   }
   #pd-contenedor-1
   {
