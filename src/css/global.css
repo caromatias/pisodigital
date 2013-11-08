@@ -170,7 +170,7 @@ and open the template in the editor.
 }
 #pd-contenido-portafolio{
     width: 970px;
-    height: 420px;
+    height: 500px;
     margin: 0 auto;
 }
 #pd-contenido-portafolio a{
@@ -178,7 +178,7 @@ and open the template in the editor.
 }
 .pd-portafolio-pop-up{
     width: 200px;
-    height: 144px;
+    height: 200px;
     margin-left: 20px;
     border: 2px solid #FB5A02;
     margin-top: 40px;
