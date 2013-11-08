@@ -162,10 +162,26 @@ and open the template in the editor.
     background-color: #403F45;
 }
 #pd-copyright{
-    font-size: 18px;
+    font-size: 16px;
     color: azure;
     margin-left: 510px;
     margin-top: 50px;
     font-style: oblique;
-
+}
+#pd-contenido-portafolio{
+    width: 970px;
+    height: 420px;
+    margin: 0 auto;
+}
+#pd-contenido-portafolio a{
+    color: #FB5A02;
+}
+.pd-portafolio-pop-up{
+    width: 200px;
+    height: 144px;
+    margin-left: 20px;
+    border: 2px solid #FB5A02;
+    margin-top: 40px;
+    float: left;
+    margin-right: 20px;
 }

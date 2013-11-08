@@ -5,7 +5,7 @@ $(document).ready(function(){
         $('#sobre').addClass('active');
     });
     $('#portafolio').click(function(){
-        $.scrollTo('#in_pricing', 800);
+        $.scrollTo('#sc-portafolio', 800);
         $('#portafolio').addClass('active');
         $('#sobre').removeClass('active');
     });
