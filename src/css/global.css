@@ -176,11 +176,17 @@ and open the template in the editor.
 #pd-contenido-portafolio a{
     color: #FB5A02;
 }
+.pd-separador-imagen-portafoli{
+    width: 187px;
+    height: 18px;
+    background-image: url('../images/imagenes-banner/quienes-somos-2.png');
+    float: left;
+    margin-top: -16px;
+}
 .pd-portafolio-pop-up{
     width: 200px;
     height: 200px;
     margin-left: 20px;
-    border: 2px solid #FB5A02;
     margin-top: 40px;
     float: left;
     margin-right: 20px;
