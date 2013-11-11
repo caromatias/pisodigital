@@ -7,14 +7,12 @@
         <link href="src/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
         <link rel="stylesheet" href="src/bootstrap/css/bootstrap-overrides.css" type="text/css" />
         <link rel="stylesheet" type="text/css" href="src/bootstrap/css/theme.css" />
-
-        <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css' />
-
-        <link rel="stylesheet" href="src/bootstrap/css/index.css" type="text/css" media="screen" />    
+        <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css' />        <link rel="stylesheet" href="src/bootstrap/css/index.css" type="text/css" media="screen" />    
         <link rel="stylesheet" type="text/css" href="src/bootstrap/css/animate.css" media="screen, projection" />  
         <link rel="stylesheet" type="text/css" href="src/css/global.css" media="screen, projection" />
     </head>
     <body class="pull_top">
+
         <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
             <div class="container">
                 <div class="navbar-header">
@@ -28,10 +26,10 @@
                 <div id="dp-logo-inicio"></div>
                 <div  role="navigation">
                     <ul class="nav navbar-nav navbar-right">
-                        <li class="active" id="sobre"><a>SOBRE NOSOTROS</a></li>
-                        <li id="portafolio"><a>PORTAFOLIO</a></li>
-                        <li id="clientes"><a>CLIENTES</a></li>
-                        <li id="contacto"><a>CONTACTO</a></li>
+                        <li class="active" id="sobre" style="cursor: pointer;"><a>SOBRE NOSOTROS</a></li>
+                        <li id="portafolio" style="cursor: pointer;"><a>PORTAFOLIO</a></li>
+                        <li id="clientes" style="cursor: pointer;"><a>CLIENTES</a></li>
+                        <li id="contacto" style="cursor: pointer;"><a href="../pisodigital/form.html">CONTACTO</a></li>
                     </ul>
                 </div>
             </div>
@@ -57,20 +55,22 @@
                 <img class="asset left-690 sp800 t40 z2" src="src/images/imagenes-banner/banner-piso-digital-app-texto.png" />
                 <div class="info">
                     <h2></h2>                
-                </div>
             </article>
 
         </section>
         <div id="dp-contenido-inicio">
             <div id="dp-contenedor-de-bloque">
                 <div class="dp-tamano-bloques-inicio" style="background-color: #FB5A02;">
-                    <div class="dp-margen-de-imagenes"><img src="src/images/logos/pc-140.png" style="width: 100px; height: 100px; margin-left: 20px; margin-top: -25px;"/></div>
+                    <div class="dp-margen-de-imagenes"><img src="src/images/logos/pc-140.png" style="width: 100px; height: 100px; margin-left: 20px; margin-top: -25px; float: left;"/></div>
+                    <div style="font-size: 24px; margin-left: 60px; margin-top: 14px; ">Soporte</div>
                 </div >
                 <div class="dp-tamano-bloques-inicio" style="background-color: #DD4F03;">
                     <div class="dp-margen-de-imagenes"><img src="src/images/logos/ampolleta-140.png" style="width: 100px; height: 100px; margin-left: 20px; margin-top: -25px;"/></div>
+                    <div style="font-size: 24px; margin-left: 37px; margin-top: 14px;">Imaginación</div>
                 </div>
                 <div class="dp-tamano-bloques-inicio" style="background-color: #C74A07">
                     <div class="dp-margen-de-imagenes"><img src="src/images/logos/pluma-140.png" style="width: 100px; height: 100px; margin-left: 20px; margin-top: -25px;"/></div>
+                    <div style="font-size: 24px; margin-left: 60px; margin-top: 14px;">Diseño</div>
                 </div>
             </div>
         </div>
@@ -149,13 +149,11 @@
                 <div class="pd-separador-imagen-portafoli"></div>   
             </div>
         </div>
-        <div>
-            <div>
-                
-            </div>
-        </div>
         <footer id="pd-footer">
             <div id="pd-footer-border">
+            </div>
+            <div>
+                <img src="src/images/logos/logo-pd.png" style="width: 122px;height: 86px;margin-left: 245px;margin-top: 0px;float: left;"/>
             </div>
             <div id="pd-copyright">
                 <div>© 2013 Piso Digital. Todos los derechos reservados.</div>
@@ -168,5 +166,6 @@
         <script type="text/javascript" src="src/js/index-slider.js"></script>
         <script type="text/javascript" src="src/js/jquery.scrollTo-1.4.3.1-min.js"></script>
         <script type="text/javascript" src="src/js/global.js"></script>
+        <script type="text/javascript" src="../pisodigital/src/js/regular.js"></script>
     </body>
 </html>

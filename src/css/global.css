@@ -20,15 +20,15 @@ and open the template in the editor.
 }
 @-webkit-keyframes animate-bg{
     0%{background-position:0 0}
-100%{background-position:0px -200px}
+    100%{background-position:0px -200px}
 }
 @-moz-keyframes animate-bg{
     0%{background-position:0 0}
-100%{background-position:0px -200px}
+    100%{background-position:0px -200px}
 }
 @keyframes animate-bg{
     0%{background-position:0 0}
-100%{background-position:0 -200px}
+    100%{background-position:0 -200px}
 }
 #dp-titulo-nuestros-proyecto
 {
@@ -59,7 +59,7 @@ and open the template in the editor.
 .dp-margen-de-imagenes
 {
     width: 140px;
-    height: 140px;
+    height: 80px;
     margin: 0 auto;
     margin-top: 60px;
 }
@@ -162,9 +162,9 @@ and open the template in the editor.
     background-color: #403F45;
 }
 #pd-copyright{
-    font-size: 16px;
+    font-size: 14px;
     color: azure;
-    margin-left: 510px;
+    margin-left: 740px;
     margin-top: 50px;
     font-style: oblique;
 }
@@ -190,4 +190,25 @@ and open the template in the editor.
     margin-top: 40px;
     float: left;
     margin-right: 20px;
+}
+textarea, input[type=text], input[type=number], input[type=email]{
+    color: #FFFFFF;
+    margin: 10px 0px 10px 0px;
+    height: 35px;
+    width: 300px;
+    background-color: #ffffff;
+    border: 1px solid #252525;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    box-shadow: inset 0 21px 16px rgba(0,0,0,0.080);
+    -webkit-transition: border linear .2s,box-shadow linear .2s;
+    -moz-transition: border linear .2s,box-shadow linear .2s;
+    -o-transition: border linear .2s,box-shadow linear .2s;
+    transition: border linear .2s,box-shadow linear .2s;
+}
+textarea:focus, input[type=text]:focus,input[type=number]:focus, input[type=email]:focus, input[type=button]:focus
+{
+    outline: none;
+    box-shadow: 0 0 5px rgb(81, 203, 238);
+    border: 1px solid rgb(81, 203, 238);
 }
