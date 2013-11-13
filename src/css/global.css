@@ -30,76 +30,75 @@ and open the template in the editor.
     0%{background-position:0 0}
     100%{background-position:0 -200px}
 }
-#dp-titulo-nuestros-proyecto
-{
+#dp-titulo-nuestros-proyecto{
     font-family: 'Share Tech', sans-serif;
     font-size: 20px;
     width: 300px;
     height: -94px;
     color: #535353;
 }
-#dp-contenido-inicio
-{
+.dp-contenido-inicio{
     width: 100%;
     height: 200px;
 }
-#dp-contenedor-de-bloque
-{
+#dp-contenedor-de-bloque{
+    width: 600px;   
+    height: 220px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+#dp-contenedor-de-bloque-portafolio{
     width: 400px;   
     height: 220px;
     margin: 0 auto;
     margin-top: 30px;
 }
-.dp-tamano-bloques-inicio
-{
+.dp-tamano-bloques-inicio{
     width: 200px;
     height: 220px;
     float: left;
 }
-.dp-margen-de-imagenes
-{
-    width: 140px;
-    height: 80px;
+.dp-tamano-bloques-inicio-portafolio{
+    width: 200px;
+    height: 160px;
+    float: left;
+}
+.dp-margen-de-imagenes{
+    width: 100px;
+    height: 100px;
     margin: 0 auto;
     margin-top: 60px;
 }
-#dp-banner-pc-datos
-{
+#dp-banner-pc-datos{
     width: 100%;
     height: 200px;
 }
-.dp-contenedor-sobre-nosotros
-{
+.dp-contenedor-sobre-nosotros{
     margin: 0 auto;
     width: 900px;
     float: left;
 }
-#dp-sobre-nosotros-info-uno
-{
+#dp-sobre-nosotros-info-uno{
     width: 430px;
     margin-top: 0px;
     margin-left: 0px;
     float: left;
     font-size: 24px;
 }
-#dp-sobre-nosotros-info-uno a
-{
+#dp-sobre-nosotros-info-uno a{
     font-size: 24px;
     color: #FB5A02;
 }
-#dp-sobre-nosotros-separador-uno
-{
+#dp-sobre-nosotros-separador-uno{
     width: 100%;
     height: 30px;
     background-image: url('../images/imagenes-banner/quienes-somos.png');
     background-position: -292px -250px;
 }
-#dp-sobre-nosotros-info-uno p 
-{
+#dp-sobre-nosotros-info-uno p{
     font-size: 18px;
 }
-#dp-sobre-nosotros-imagen-uno
-{
+#dp-sobre-nosotros-imagen-uno{
     width: 177px;
     height: 143px;
     float: left;
@@ -108,28 +107,24 @@ and open the template in the editor.
     background-image: url('../images/imagenes-banner/quienes-somos.png');
     background-position: -820px -266px;
 }
-#dp-sobre-nosotros-info-dos
-{
+#dp-sobre-nosotros-info-dos{
     width: 430px;
     height: 330px;
     margin-top: 39px;
     margin-left: 30PX;
     float: left;
 }
-#dp-sobre-nosotros-separador-dos
-{
+#dp-sobre-nosotros-separador-dos{
     width: 100%;
     height: 30px;
     background-image: url('../images/imagenes-banner/quienes-somos.png');
     background-position: -292px -250px;
 }
 
-#dp-sobre-nosotros-info-dos p ul
-{
+#dp-sobre-nosotros-info-dos p ul{
     font-family: 'Share Tech', sans-serif;
 }
-#dp-sobre-nosotros-imagen-dos
-{
+#dp-sobre-nosotros-imagen-dos{
     width: 210px;
     height: 197px;
     float: left;
@@ -138,8 +133,7 @@ and open the template in the editor.
     background-image: url('../images/imagenes-banner/quienes-somos.png');
     background-position: -801px -560px;
 }
-#dp-logo-inicio
-{
+#dp-logo-inicio{
     width: 132px;
     height: 132px;
     background-image: url('../images/imagenes-banner/quienes-somos.png');
@@ -210,4 +204,21 @@ textarea:focus, input[type=text]:focus,input[type=number]:focus, input[type=emai
 #pd-contentFooter{
     width: 1000px;
     margin: 0 auto;
+}
+#pd-imagen-menu-portafolio-uno{
+    width: 157px;
+    height: 120px;
+    background-image: url('../images/logos/iconos.png');
+    margin-right: 0px;
+    margin-top: 20px;
+    background-position: 28px 0px;
+}
+#pd-imagen-menu-portafolio-dos{
+    width: 80px;
+    height: 120px;
+    background-image: url('../images/logos/iconos.png');
+    margin-right: 0px;
+    margin-top: 20px;
+    background-position: -237px 0px;
+    margin-left: 57px;
 }
