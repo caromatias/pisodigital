@@ -11,10 +11,10 @@
         <link rel="stylesheet" type="text/css" href="src/bootstrap/css/animate.css" media="screen, projection" />  
         <link rel="stylesheet" type="text/css" href="src/css/global.css" media="screen, projection" />
     </head>
-    <body class="pull_top">
-
+    <body class="pull_top" id="bodyMaster">
         <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
             <div class="container">
+                <div id="dp-logo-inicio"></div>
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle pull-right" data-toggle="collapse" data-target=".navbar-ex1-collapse">
                         <span class="sr-only">Toggle navigation</span>
@@ -23,10 +23,10 @@
                         <span class="icon-bar"></span>
                     </button>
                 </div>
-                <div id="dp-logo-inicio"></div>
                 <div  role="navigation">
                     <ul class="nav navbar-nav navbar-right">
-                        <li class="active" id="sobre" style="cursor: pointer;"><a>SOBRE NOSOTROS</a></li>
+                        <li class="active" id="inicio" style="cursor: pointer;"><a>INICIO</a></li>
+                        <li id="sobre" style="cursor: pointer;"><a>SOBRE NOSOTROS</a></li>
                         <li id="portafolio" style="cursor: pointer;"><a>PORTAFOLIO</a></li>
                         <li id="clientes" style="cursor: pointer;"><a>CLIENTES</a></li>
                         <li id="contacto" style="cursor: pointer;"><a href="../pisodigital/form.html">CONTACTO</a></li>
@@ -34,6 +34,7 @@
                 </div>
             </div>
         </div>
+        <div id="topPage" class="pd-aire"></div>
         <section id="feature_slider" class="lol">
             <article class="slide" id="responsive" style="background: url('src/images/imagenes-banner/banner-piso-digital-fondo.jpg') repeat-x top center;">
                 <img class="asset left-472 sp600 t180 z3" src="src/images/imagenes-banner/banner-piso-digital-px-01.png" />
@@ -69,9 +70,9 @@
                 </div>
             </div>
         </div>
-        <div id="features">
+        <section id="features">
             <div class="pd-aire"></div>
-            <div class="container">
+            <div class="container" style="padding: 60px 0px 0px 0px;">
                 <div class="dp-contenedor-sobre-nosotros">
                     <div id="dp-sobre-nosotros-info-uno">
                         Quienes <a>Somos</a>
@@ -98,7 +99,7 @@
                     </div>    
                 </div>
             </div>
-        </div>
+        </section>
         <div style="height: 20px;"></div>
         <div id="sc-portafolio" style="width: 100%; height: 132px; ">
         </div>
